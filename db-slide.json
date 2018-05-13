@@ -1,0 +1,240 @@
+{
+  "home": {
+    "slider": [
+      {
+        "id": "1",
+        "cover": "cover_1.jpg",
+        "topic": "Regent reserva",
+        "title": "Irresisti ble taste"
+      },
+      {
+        "id": "2",
+        "cover": "cover_2.jpg",
+        "topic": "Rose nostra",
+        "title": "Top price of the week"
+      },
+      {
+        "id": "3",
+        "cover": "cover_3.jpg",
+        "topic": "Maximianus Imperator",
+        "title": "Simply the best"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "p1",
+        "type": "lg",
+        "image": "1.jpg",
+        "title": "Campanas,words are superfluous"
+      },
+      {
+        "id": "p2",
+        "type": "md",
+        "image": "2.jpg",
+        "title": "Wine from 1910"
+      },
+      {
+        "id": "p3",
+        "type": "sm",
+        "image": "3.jpg",
+        "title": "Future hobby?"
+      },
+      {
+        "id": "p4",
+        "type": "sm",
+        "image": "4.jpg",
+        "title": "Wiine.me"
+      },
+      {
+        "id": "p5",
+        "type": "md",
+        "image": "5.jpg",
+        "title": "A new way to discover & learn about wine"
+      },
+      {
+        "id": "p6",
+        "type": "lg",
+        "image": "6.jpg",
+        "title": "Reims,France"
+      }
+    ]
+  },
+  "subcriptions": [
+    {
+      "email": "fernando@gmail.com",
+      "id": 1
+    },
+    {
+      "email": "email@email.com",
+      "id": 2
+    },
+    {
+      "email": "izmisljeni@yahoo.com",
+      "id": 3
+    },
+    {
+      "email": "pecav94@ff.com",
+      "id": 4
+    },
+    {
+      "email": "petar@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "a@gamil.com",
+      "id": 6
+    }
+  ],
+  "vinarija": [
+    {
+      "naziv": "Caberne Sauvignon",
+      "vrsta": "white",
+      "procenat": "16",
+      "image": "1.jpg",
+      "berba": "2018",
+      "cena": "7500",
+      "views": 116,
+      "likes": [
+        66,
+        10
+      ],
+      "detalji": "Cabernet Sauvignon is one of the world's most widely recognized red wine grape varieties. It is grown in nearly every major wine producing country among a diverse spectrum of climates from Canada's Okanagan Valley to Lebanon's Beqaa Valley. Cabernet Sauvignon became internationally recognized through its prominence in Bordeaux wines where it is often blended with Merlot and Cabernet Franc. From France, the grape spread across Europe and to the New World where it found new homes in places like California's Santa Cruz Mountains, Napa Valley, New Zealand's Hawkes Bay, Australia's Margaret River and Coonawarra regions, and Chile's Maipo Valley and Colchagua. For most of the 20th century, it was the world's most widely planted premium red wine grape until it was surpassed by Merlot in the 1990s. However, by 2015, Cabernet Sauvignon had become the most widely planted wine grape, with a total of 341000ha under vine worldwide.",
+      "id": 1
+    },
+    {
+      "naziv": "Oliver",
+      "vrsta": "white",
+      "procenat": "12",
+      "image": "2.jpg",
+      "berba": "2006",
+      "cena": "4000",
+      "views": 28,
+      "likes": [
+        41,
+        21
+      ],
+      "detalji": "Different varieties of grapes and strains of yeasts produce different styles of wine. These variations result from the complex interactions between the biochemical development of the grape, the reactions involved in fermentation, the terroir, and the production process. Many countries enact legal appellations intended to define styles and qualities of wine. These typically restrict the geographical origin and permitted varieties of grapes, as well as other aspects of wine production. Wines not made from grapes include rice wine and fruit wines such as plum, cherry, pomegranate and elderberry.",
+      "id": 2
+    },
+    {
+      "naziv": "Carmenet Chardonnay",
+      "vrsta": "red",
+      "procenat": "12",
+      "image": "3.jpg",
+      "berba": "2008",
+      "cena": "5400",
+      "views": 157,
+      "likes": [
+        100,
+        33
+      ],
+      "detalji": "Carmenet Chardonnay is a lovely straw-colored wine with hints of apple, banana, and vanilla. This opulent and sensual wine finishes with butterscotch and tropical fruit and ends with a smooth, crisp, enjoyable finish.",
+      "id": 3
+    },
+    {
+      "naziv": "Chateau Ste. Michelle",
+      "vrsta": "white",
+      "procenat": "12",
+      "image": "4.jpg",
+      "berba": "2001",
+      "cena": "5000",
+      "views": 15,
+      "likes": [
+        8,
+        2
+      ],
+      "detalji": "Chateau Ste. Michelle is Washington state's founding winery featuring award-winning wines and an unparalleled tasting experience at our historic chateau and grounds near Seattle.",
+      "id": 4
+    },
+    {
+      "naziv": "Château Lafite Rothschild",
+      "vrsta": "red",
+      "procenat": "12",
+      "image": "5.jpg",
+      "berba": "2004",
+      "cena": "2000",
+      "views": 71,
+      "likes": [
+        18,
+        32
+      ],
+      "detalji": "Château Lafite Rothschild is a wine estate in France, owned by members of the Rothschild family since the 19th century. The name Lafite comes from the surname of the La Fite family. Lafite was one of four wine-producing châteaux of Bordeaux originally awarded First Growth status in the 1855 Classification, which was based on the prices and wine quality at that time. Since then, it has been a consistent producer of one of the world's most expensive red wines.",
+      "id": 5
+    },
+    {
+      "naziv": "Barefoot Cellars",
+      "vrsta": "white",
+      "procenat": "12",
+      "image": "6.jpg",
+      "berba": "2002",
+      "cena": "1000",
+      "views": 222,
+      "likes": [
+        43,
+        13
+      ],
+      "detalji": "Barefoot is in the business of making great wine that has something for everyone, from our sweet reds and refreshing whites to our delicious bubbly.",
+      "id": 6
+    },
+    {
+      "naziv": "Guinnes",
+      "vrsta": "red",
+      "procenat": "14",
+      "image": "7.jpg",
+      "berba": "2010",
+      "cena": "4700",
+      "views": 70,
+      "likes": [
+        44,
+        12
+      ],
+      "detalji": "Different varieties of grapes and strains of yeasts produce different styles of wine. These variations result from the complex interactions between the biochemical development of the grape, the reactions involved in fermentation, the terroir, and the production process. Many countries enact legal appellations intended to define styles and qualities of wine. These typically restrict the geographical origin and permitted varieties of grapes, as well as other aspects of wine production. Wines not made from grapes include rice wine and fruit wines such as plum, cherry, pomegranate and elderberry.",
+      "id": 7
+    },
+    {
+      "naziv": "Methuselah",
+      "vrsta": "red",
+      "procenat": "14",
+      "image": "8.jpg",
+      "berba": "2010",
+      "cena": "4000",
+      "views": 64,
+      "likes": [
+        44,
+        12
+      ],
+      "detalji": "Different varieties of grapes and strains of yeasts produce different styles of wine. These variations result from the complex interactions between the biochemical development of the grape, the reactions involved in fermentation, the terroir, and the production process. Many countries enact legal appellations intended to define styles and qualities of wine. These typically restrict the geographical origin and permitted varieties of grapes, as well as other aspects of wine production. Wines not made from grapes include rice wine and fruit wines such as plum, cherry, pomegranate and elderberry.",
+      "id": 8
+    },
+    {
+      "naziv": "Kendall-Jackson Vineyard Estates",
+      "vrsta": "red",
+      "procenat": "12",
+      "image": "9.jpg",
+      "berba": "2009",
+      "cena": "1999",
+      "views": 42,
+      "likes": [
+        13,
+        2
+      ],
+      "detalji": "Different varieties of grapes and strains of yeasts produce different styles of wine. These variations result from the complex interactions between the biochemical development of the grape, the reactions involved in fermentation, the terroir, and the production process. Many countries enact legal appellations intended to define styles and qualities of wine. These typically restrict the geographical origin and permitted varieties of grapes, as well as other aspects of wine production. Wines not made from grapes include rice wine and fruit wines such as plum, cherry, pomegranate and elderberry.",
+      "id": 9
+    },
+    {
+      "naziv": "Jacob's Creek",
+      "vrsta": "white",
+      "procenat": "15",
+      "image": "10.jpg",
+      "berba": "2004",
+      "cena": "3000",
+      "views": 52,
+      "likes": [
+        24,
+        11
+      ],
+      "detalji": "Different varieties of grapes and strains of yeasts produce different styles of wine. These variations result from the complex interactions between the biochemical development of the grape, the reactions involved in fermentation, the terroir, and the production process. Many countries enact legal appellations intended to define styles and qualities of wine. These typically restrict the geographical origin and permitted varieties of grapes, as well as other aspects of wine production. Wines not made from grapes include rice wine and fruit wines such as plum, cherry, pomegranate and elderberry.",
+      "id": 10
+    }
+  ]
+}
