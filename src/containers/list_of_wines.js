@@ -21,7 +21,6 @@ class List_of_wines extends Component {
                                 </div>
 
                         <div className="tags">
-                            <span><i className="fa fa-eye" aria-hidden="true"></i> {item.views}  </span>
                             <span><i className="fa fa-thumbs-up" aria-hidden="true"></i> {item.likes[0]}  </span>
                             <span><i className="fa fa-thumbs-down" aria-hidden="true"></i> {item.likes[1]}  </span>
                         </div>
