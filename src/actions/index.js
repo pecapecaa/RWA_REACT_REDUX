@@ -20,19 +20,38 @@ export function wineDetail(id){
     }
   }
 
-  export function handleLikes(array,id){
-    const request = fetch(`${URL_ROOT}/vinarija/${id}`, { 
-        method: 'PATCH',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({likes:array})
-    })
-    .then(response => response.json());
+//   export function handleLikes(array,id){
+//     const request = fetch(`${URL_ROOT}/vinarija/${id}`, { 
+//         method: 'PATCH',
+//         headers: {
+//             'Accept': 'application/json',
+//             'Content-Type': 'application/json'
+//         },
+//         body: JSON.stringify({likes:array})
+//     })
+//     .then(response => response.json());
 
-    return{
-        type: 'HANDLE_LIKES_ARTICLE',
-        payload:request
-    }
+//     return{
+//         type: 'HANDLE_LIKES_ARTICLE',
+//         payload:request
+//     }
+// }
+
+export function addLikes(indikator,array,id){
+  
+  const newLikes = indikator === 'ADD' ? [array[0] +1,array[1]] : [array[0],array[1]+1]
+  return {
+    type: 'ADD_LIKE_REQUEST',
+    array: newLikes,
+    id:id
+  }
+}
+
+
+export function ChangedWine(vino){
+  return {
+    type: 'CHANGED_WINE',
+    payload:vino
+  }
+
 }

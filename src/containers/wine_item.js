@@ -9,6 +9,7 @@ class Wine_item extends Component {
 
     renderDetail= ({detail}) => {
         if(detail)
+        {
           return detail.map((item)=>{
             return (
               <div key={item.id} className="wine_detail">
@@ -31,6 +32,7 @@ class Wine_item extends Component {
               </div>
             )
           })
+        }
     }
 
     componentDidMount(){

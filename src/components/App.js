@@ -8,21 +8,30 @@ import Home from "./home";
 import Pretraga from "../containers/pretraga";
 import Wine_item from "../containers/wine_item";
 
-//redux
+//REDUX
 import {Provider} from 'react-redux';
 import {createStore,applyMiddleware} from 'redux';
 import promiseMiddleware from 'redux-promise';
 
+//SAGA
+import createSagaMiddleware from 'redux-saga';
+import mySaga from '../saga/sagas';
+
 // REDUCER
 import reducers from '../reducers';
 
-
-const createStoreWithMiddleware=applyMiddleware(promiseMiddleware)(createStore);
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(
+    reducers,
+    applyMiddleware(sagaMiddleware),
+    applyMiddleware(promiseMiddleware)
+);
+sagaMiddleware.run(mySaga);
 
 class App extends Component {
   render() {
     return (
-      <Provider store={createStoreWithMiddleware(reducers)}>
+      <Provider store={store}>
           <BrowserRouter>
             <div>
               <Header/>

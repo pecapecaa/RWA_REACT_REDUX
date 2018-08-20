@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { handleLikes } from '../actions'
+import { addLikes } from '../actions'
 import { bindActionCreators } from 'redux';
 
 
@@ -13,17 +13,6 @@ class LikesCounter extends Component {
         }
     }
 
-    addLikes=(action)=>{
-        if(this.state.temp ==='')
-        {   const props = this.props;
-            const newLikes = action === 'ADD' ? [this.props.likes +1,this.props.dislikes] : [this.props.likes,this.props.dislikes + 1]
-            
-            this.props.handleLikes(newLikes,props.articleId);
-            this.setState({temp:'indikator'})
-        }
-        
-    }
-
     render() {
         return (
             <div className="addlikes-wrapper">
@@ -31,7 +20,7 @@ class LikesCounter extends Component {
                 <div className="addlikes-container">
                     <div 
                     className="btn like"
-                    onClick={()=>this.addLikes('ADD')}>
+                    onClick={()=>this.props.addLikes('ADD',this.props.wines.detail[0].likes,this.props.wines.detail[0].id)}>
                         <div className="hits">Like {this.props.likes}</div>
                         <div className="icon">
                             <i className="fa fa-thumbs-up"></i>
@@ -41,7 +30,7 @@ class LikesCounter extends Component {
                     <br/>
                     <div 
                     className="btn dislike"
-                    onClick={()=>this.addLikes('REMOVE')}>
+                    onClick={()=>this.props.addLikes('REMOVE',this.props.wines.detail[0].likes,this.props.wines.detail[0].id)}>
                         <div>Dislike {this.props.dislikes}</div>
                         <div className="icon">
                             <i className="fa fa-thumbs-down"></i>
@@ -53,8 +42,13 @@ class LikesCounter extends Component {
     }
 }
 
+function mapStateToProps(state){
+    return{
+        wines:state.wines
+    }
+}
 function mapDispatchToProps(dispatch){
-    return bindActionCreators({handleLikes},dispatch);
+    return bindActionCreators({addLikes},dispatch);
 }
 
-export default connect(null,mapDispatchToProps)(LikesCounter);
+export default connect(mapStateToProps,mapDispatchToProps)(LikesCounter);
